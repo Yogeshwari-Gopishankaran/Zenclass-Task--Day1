@@ -1,0 +1,31 @@
+Objects:
+     => It is a important data type which is important to building bloacks of JavaScripts.
+     => Objects are different from primitive data types.
+     => Tt is a collection of properties.
+     => It is in the form of "Key:Value" pair.
+     => Every object has some property associated with some Value.The values can be accessed usin the properties associated with them.
+
+     Syntax:
+             const object_name={
+                key1: "value1";
+                key2: "value2"; 
+             }
+                      
+
+           Example:
+                    const person={
+                        name:'arav',
+                        age: 20,
+                        class: 10
+                        }  
+                        
+                    console.log(person);   // print the whole objects
+                    console.log('Name : '+person.name);    //print the name 
+                    console.log('Age :  '+person.age);     //print the age
+                    console.log('Class :'+person.class);    //print the class
+
+        Output:
+                   { name: 'arave', age: 20 , class:10 }
+                   Name : arav
+                   Age :  20
+                   Class :10

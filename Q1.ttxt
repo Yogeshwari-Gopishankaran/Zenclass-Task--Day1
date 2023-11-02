@@ -1,0 +1,14 @@
+HTTP : Hypertext Transfer protocol.
+
+HTTP 1.1
+     => Allow to send mutiple request along with same conction without waiting for a response to each.
+     => keeps all request & response in a plain text format.
+     => It is used to loadte resourse one by one. if one of the resourse is not loaded, it will block the other resources behind.
+     => it is used to compress the HTTP messages to make them smaller.
+
+ HTTP2 
+    => it use binary farming layer to encapsulate all messages in binary format.
+    => it is ableto use single TCP connection to send mutiple streams f data so no resourses cannot block other resources.
+    => it allows the server to push the data to clinet before clinet ask for it.
+    => HTTP2 is use advanced comparison method(HPACK)used to emilminate redundant information in header packets.hene resulting in facster loading.
+    => Due to encryption connection increasing user and application security.
